@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upkar Tiwari - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(145deg, #f0f4f8, #ffffff);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 40px 50px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 5px;
+    }
+    .contact {
+      text-align: center;
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    h2 {
+      font-size: 24px;
+      color: #2c3e50;
+      margin-top: 40px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 6px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .edu-item {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 15px;
+    }
+    .edu-item .institution {
+      font-weight: 600;
+      font-size: 16px;
+      color: #333;
+    }
+    .edu-item .details {
+      font-weight: 500;
+      color: #777;
+      font-size: 14px;
+    }
+    ul {
+      padding-left: 20px;
+      list-style: none;
+    }
+    ul li::before {
+      content: '✨';
+      margin-right: 10px;
+      color: #007bff;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px 40px;
+    }
+    .skills-grid div::before {
+      display: inline-block;
+      margin-right: 8px;
+    }
+    .skills-grid div:nth-child(1)::before { content: '🌐'; }
+    .skills-grid div:nth-child(2)::before { content: '💻'; }
+    .skills-grid div:nth-child(3)::before { content: '🗄️'; }
+    .skills-grid div:nth-child(4)::before { content: '🔗'; }
+    .skills-grid div:nth-child(5)::before { content: '🌱'; }
+    .skills-grid div:nth-child(6)::before { content: '🛠️'; }
+    .project-title {
+      font-weight: 600;
+      margin-top: 12px;
+    }
+    .project-desc {
+      margin-left: 20px;
+      margin-top: 4px;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    .project-link a {
+      color: #007bff;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .job-entry {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+    .job-entry .title {
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .job-entry .date {
+      font-size: 13px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Upkar Tiwari</h1>
+    <div class="contact">
+      📞 +91 63880 39609 | 📧 upkartiwari586@gmail.com | 🌐 <a href="https://www.linkedin.com/in/upkar-tiwari-413752262/" target="_blank">LinkedIn</a> | 💻 <a href="https://github.com/upkar-code" target="_blank">GitHub</a>
+    </div>
+
+    <div class="section">
+      <h2>🎓 Education</h2>
+      <div class="edu-item">
+        <div class="institution">Noida Institute of Engineering and Technology, Greater Noida</div>
+        <div class="details">B.Tech (2021–2025) – 8.34 CGPA</div>
+      </div>
+      <div class="edu-item">
+        <div class="institution">Buddha Public School, Bahraich</div>
+        <div class="details">Senior Secondary (2019–2021) – 79.2%</div>
+      </div>
+      <div class="edu-item">
+        <div class="institution">Blooming Buds Sr. Sec. School, Balrampur</div>
+        <div class="details">Secondary (2017–2019) – 77.2%</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>💼 Experience</h2>
+      <div class="job-entry">
+        <div class="title">👨‍💻 Programmer Analyst Trainee – Cognizant Technology Solutions, Chennai</div>
+        <div class="date">(Mar 2025 – Present)</div>
+      </div>
+      <ul>
+        <li>Integrated enterprise systems using IBM webMethods</li>
+        <li>Developed Flow Services to automate business processes</li>
+        <li>Worked with Flat Files, FTP, and File Polling</li>
+        <li>Built Publish-Subscribe messaging models</li>
+        <li>Integrated with Oracle DB using JDBC Adapter</li>
+      </ul>
+
+      <div class="job-entry">
+        <div class="title">🌐 Web Developer Intern – Bharat Intern</div>
+        <div class="date">(Jul 2023 – Aug 2023)</div>
+      </div>
+      <ul>
+        <li>Built a Content Management Tool (HTML, CSS, JS)</li>
+        <li>Developed a Video Conferencing Website</li>
+      </ul>
+
+      <div class="job-entry">
+        <div class="title">💻 Full Stack Intern – TechnoHacks</div>
+        <div class="date">(Aug 2023 – Sep 2023)</div>
+      </div>
+      <ul>
+        <li>Created a Personal Portfolio Website</li>
+        <li>Designed a Dynamic Registration Page</li>
+        <li>Built an Interactive Calculator</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🚀 Projects</h2>
+      <div class="project-title">📢 Notice Generator</div>
+      <div class="project-desc">Built using ReactJS, Firebase, Firestore, Redux. This web app helps college admins generate and distribute notices to students efficiently.</div>
+      <div class="project-link">🔗 <a href="https://notice-generator-webapp.web.app/">Live Demo</a></div>
+
+      <div class="project-title">🧑‍🎨 Portfolio Website</div>
+      <div class="project-desc">A personal website showcasing resume, projects, skills, and contact form using HTML, CSS, and JavaScript.</div>
+      <div class="project-link">🔗 <a href="https://upkarportfolio.netlify.app/">Live Site</a></div>
+
+      <div class="project-title">🌾 Smart Farming</div>
+      <div class="project-desc">IoT project for smart irrigation using Arduino, sensors, and Firebase for real-time data monitoring and automation.</div>
+      <div class="project-link">🔗 <a href="https://github.com/UpkarCodes/Smart-Farming">GitHub</a></div>
+
+      <div class="project-title">🎧 Spotify Clone</div>
+      <div class="project-desc">Simple music streaming interface inspired by Spotify UI using HTML and CSS.</div>
+      <div class="project-link">🔗 <a href="https://github.com/UpkarCodes/Spotify-clone">GitHub</a></div>
+
+      <div class="project-title">🎨 Random Color Generator</div>
+      <div class="project-desc">Tool to generate random colors with HEX values using HTML, CSS, and JavaScript.</div>
+      <div class="project-link">🔗 <a href="https://upkarcodes.github.io/Random-Color-Generator/">Live Demo</a></div>
+
+      <div class="project-title">🥁 Drum Kit</div>
+      <div class="project-desc">An interactive drum kit built with JavaScript to play sound on key or button press.</div>
+      <div class="project-link">🔗 <a href="https://upkarcodes.github.io/Drum-Kit/">Live Demo</a></div>
+
+      <div class="project-title">🧠 Simon Game</div>
+      <div class="project-desc">A memory game to test pattern recall skills using JavaScript and jQuery.</div>
+      <div class="project-link">🔗 <a href="https://upkarcodes.github.io/Simon-Game/">Live Demo</a></div>
+    </div>
+
+    <div class="section">
+      <h2>🏆 Achievements</h2>
+      <ul>
+        <li>🥉 Ebullience-23, NIET – Secured 3rd place in 30-minute IoT challenge competition</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🧠 Technical Skills</h2>
+      <div class="skills-grid">
+        <div>Web Dev: HTML, CSS, JavaScript, React, Node.js, Express.js, REST APIs</div>
+        <div>Languages: Java, Python, C</div>
+        <div>Databases: MongoDB, SQL</div>
+        <div>Middleware: IBM webMethods (Flow Services, Adapters, Messaging)</div>
+        <div>IoT: Arduino, ESP32, Sensors</div>
+        <div>Tools: Git, GitHub</div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
